@@ -1,0 +1,49 @@
+.cart{
+    background-color: #ffe0b3;
+    padding: 30px 0;
+    padding-bottom: 50px;
+    position: sticky;
+    top: 0;
+}
+.order-heading{
+    text-align: center;
+    margin: 20px 0;
+}
+.order-text{
+    margin: 0 20px;
+}
+.order-text>p{
+    margin: 20px 0;
+}
+.text-bold{
+    font-weight: 700;
+    font-size: 20px;
+}
+.btn-select{
+    display: grid;
+    grid-template-rows: 2;
+    gap: 10px;
+}
+.btn-select>button{
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+}
+.btn-select>button:nth-child(1){
+    background-color: #FF3030;
+    color: white;
+}
+.btn-select>button:nth-child(2){
+    background-color: #FF9900;
+    color: white;
+}
+.btn-select>button:nth-child(1):hover{
+    background-color: #fa2b2b;
+    cursor: pointer;
+}
+.btn-select>button:nth-child(2):hover{
+    background-color: #f49403;
+    cursor: pointer;
+}
