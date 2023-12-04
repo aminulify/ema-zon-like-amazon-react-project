@@ -1,0 +1,40 @@
+.review-item{
+    width: 571px;
+    border: 1px solid silver;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.review-img img{
+    width: 80px;
+    border-radius: 5px;
+}
+.left-side{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.left-text{
+    display: grid;
+    gap: 2px;
+}
+.heading{
+    font-size: 18px;
+}
+.items-delete{
+    font-size: 18px;
+    color: red;
+    padding: 10px 14px;
+    background-color: rgba(255, 0, 0, 0.187);
+    border-radius: 50%;
+    transition: 0.5s all linear;
+    border: none;
+}
+.items-delete:hover{
+    color: rgb(211, 2, 2);
+    background-color: rgb(210, 0, 0, 0.187);
+    transform: scale(1.1);
+}

@@ -36,7 +36,7 @@ const Cart = (props) => {
                 <p id='tax-price'>Tax(5%): ${tax.toFixed(2)}</p>
                 <p className='text-bold' id='grand-total'>Grand Total: ${grandTotal}</p>
                 <div className='btn-select'>
-                <button>Clear Cart <i class="fa-solid fa-trash"></i></button>
+                <button>Clear Cart <i class="fa-regular fa-trash-can"></i></button>
                 <button>Review Order <i class="fa-solid fa-arrow-right"></i></button>
                 </div>
                 </div>
