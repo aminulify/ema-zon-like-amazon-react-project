@@ -13,3 +13,15 @@
     margin: 50px;
    
 }
+.review-order{
+    padding: 12px 55px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    background-color: #FF9900;
+    color: white;
+}
+.review-order:hover{
+    background-color: #eb8e02;
+}

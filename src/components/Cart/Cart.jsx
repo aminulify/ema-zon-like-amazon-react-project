@@ -1,9 +1,9 @@
 import React from 'react';
 import './Cart.css'
 
-const Cart = (props) => {
+const Cart = ({cart, handleClearCart, children}) => {
     // const cart = props.cart; // option 1
-    const {cart} = props;  // option 2
+    // const {cart} = props;  // option 2
     // console.log(product.shipping);
  
     // total / grand total price
@@ -35,9 +35,11 @@ const Cart = (props) => {
                 <p id='total-shipping'>Total Shipping Charge: ${totalShipping}</p>
                 <p id='tax-price'>Tax(5%): ${tax.toFixed(2)}</p>
                 <p className='text-bold' id='grand-total'>Grand Total: ${grandTotal}</p>
+
                 <div className='btn-select'>
-                <button>Clear Cart <i class="fa-regular fa-trash-can"></i></button>
-                <button>Review Order <i class="fa-solid fa-arrow-right"></i></button>
+                <button onClick={handleClearCart} className='btn-clear-cart'>Clear Cart <i class="fa-regular fa-trash-can"></i></button>
+                {/* <button>Review Order <i class="fa-solid fa-arrow-right"></i></button> */}
+                {children}
                 </div>
                 </div>
         
