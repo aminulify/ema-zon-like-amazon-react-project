@@ -44,7 +44,6 @@ const Cart = ({cart, handleClearCart, children}) => {
                 </div>
         
             </div>
-       
     );
 };
 

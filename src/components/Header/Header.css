@@ -27,3 +27,16 @@ nav{
     color: orange;
     transition: all 0.4s;
 }
+
+.text-white{
+    color: white;
+    padding: 0 20px;
+    font-size: 12px;
+}
+.text-white button{
+    padding: 5px 10px;
+    background-color: #fcb64d;
+    border-radius: 5px;
+    border: none;
+    margin-left: 20px;
+}
